@@ -1,9 +1,9 @@
 // import firebaseComponent from "./components/firebase-component";
 import RootApp from "./root/RootApp";
 import LoginForm from "./components/SignInForm";
-import TaskForm from "./components/ActivityForm";
-import TaskCard from "./components/ActivityCard";
-import TaskList from "./components/ActivityBoard.ts";
+import TaskForm from "./components/CanvaForm";
+import TaskCard from "./components/CanvaCard";
+import TaskList from "./components/CanvaBoard";
 import RegisterForm from "./components/SignUpForm";
 import MainPage from "./pages/HomePage";
 import FourPage from "./pages/FourPage";
