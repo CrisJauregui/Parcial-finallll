@@ -1,10 +1,10 @@
-import { TaskType } from "../types/TypesDB";
+import { TaskType } from "../utils/types/Types";
 import {
   getTasksByUserId,
   addTask,
   updateTask,
   deleteTask,
-} from "../services/firebase/TaskService";
+} from "../services/firebase/UserService";
 import { logoutUser } from "../services/firebase/auth-service";
 
 class TasksPage extends HTMLElement {
